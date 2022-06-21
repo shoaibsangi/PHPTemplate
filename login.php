@@ -24,8 +24,6 @@
 
  include 'header.php';
  ?>
- 
- 
  <!-- inner page section -->
  <section class="inner_page_head">
          <div class="container_fuild">
