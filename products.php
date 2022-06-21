@@ -44,21 +44,7 @@ while($row=mysqli_fetch_assoc($result))
                            Buy Now
                            </a>
                         </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['pro_image']);?>" alt="">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                        <?php echo $row['pro_name'];?>
-                        </h5>
-                        <h6>
-                           $<?php echo $row['pro_price'];?>
-                        </h6>
-                     </div>
-                  </div>
-               </div>
-               <?php
+                     
 }
                ?>
             </div>
